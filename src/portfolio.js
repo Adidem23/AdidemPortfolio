@@ -1,29 +1,24 @@
-/* Change this file to get your personal Porfolio */
-
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false,
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Adidem",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
-    type: "website",
-    url: "http://ashutoshhathidara.com/",
+    title: "Aditya Suryawanshi Portfolio",
   },
 };
 
-//Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Aditya Suryawanshi",
+  logo_name: "Aditya Suryawanshi",
+  nickname: "@NallaBerojgaar",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "I am Aditya Suryawanshi from Latur. I have Passion for Web and Blockchain Developement . Kinda I hate myself most . I do not have logic in anything and I am most Useless and Logicless Person in World . I consider myself criminal ",
   resumeLink:
     "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -31,113 +26,47 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    link: "https://github.com/Adidem23",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    link: "https://www.linkedin.com/in/aditya-suryawanshi-945145235/",
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    link: "mailto:adityasuryawanshi5451@gmail.com",
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+    link: "https://twitter.com/SURYAWANSHIADI3",
+    fontAwesomeIcon: "fa-twitter",
+    backgroundColor: "#1DA1F2",
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    link: "https://www.instagram.com/adityasuryawanshi23456/",
+    fontAwesomeIcon: "fa-instagram",
+    backgroundColor: "#E4405F",
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ I am not Professional in any Stack just I have Explored these things",
+        "⚡ I have explored HTML , CSS , JS , React , Node , ExpressJS , MongoDB and SQL",
+        "⚡ I  Kinda Try to do Web Developement ",
       ],
       softwareSkills: [
         {
@@ -177,10 +106,17 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
-            color: "#339933",
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "MongoDb",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "green",
           },
         },
         {
