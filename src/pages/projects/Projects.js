@@ -57,12 +57,10 @@ class Projects extends Component {
         <Button
           text={"More Projects"}
           className="project-button"
-          href={greeting.githubProfile}
+          href={"https://github.com/Adidem23"}
           newTab={true}
           theme={theme}
         />
-
-        {/* Publications  */}
         {publications.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
@@ -72,13 +70,15 @@ class Projects extends Component {
                     className="publications-heading-text"
                     style={{ color: theme.text }}
                   >
-                    {publicationsHeader.title}
+                    {"Hobbies"}
                   </h1>
                   <p
                     className="projects-header-detail-text subTitle"
                     style={{ color: theme.secondaryText }}
                   >
-                    {publicationsHeader["description"]}
+                    {
+                      "Besides , Blockchain and FullStack I Have Interest In 3D design and VFX and AR-VR . I also want to explore AIML in details .  I am diehard fan of all videoGames and Played alot since childhood . I am also the Ultimate @NallaBerojgaar Because I hate myself most than others . I am Statue of failures . I am not mature  "
+                    }
                   </p>
                 </div>
               </div>
@@ -86,11 +86,11 @@ class Projects extends Component {
           </div>
         ) : null}
 
-        <div className="repo-cards-div-main">
+        {/* <div className="repo-cards-div-main">
           {publications.data.map((pub) => {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
-        </div>
+        </div> */}
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

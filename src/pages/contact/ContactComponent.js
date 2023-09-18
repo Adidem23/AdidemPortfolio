@@ -28,9 +28,13 @@ class Contact extends Component {
                 <img
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt=""
+                  style={{ borderRadius: "50%" }}
                 />
               </div>
-              <div className="contact-heading-text-div">
+              <div
+                className="contact-heading-text-div"
+                style={{ marginTop: "70px" }}
+              >
                 <h1
                   className="contact-heading-text"
                   style={{ color: theme.text }}
@@ -45,17 +49,12 @@ class Contact extends Component {
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
-                  <Button
-                    text="See My Resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
-                    theme={theme}
-                  />
+                  <Button text=" 😎Thanks For Visiting !!!" theme={theme} />
                 </div>
               </div>
             </div>
           </Fade>
-          <Fade bottom duration={1000} distance="40px">
+          {/* <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text" style={{ color: theme.text }}>
@@ -81,10 +80,10 @@ class Contact extends Component {
 											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <BlogsImg theme={theme} />
+          {/* <BlogsImg theme={theme} />
               </div>
             </div>
-          </Fade>
+          </Fade> */}
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
