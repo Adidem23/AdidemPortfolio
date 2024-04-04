@@ -1,6 +1,5 @@
 # AdidemPortfolio
-This is my Personal Portfolio Website . I not made this Website from scratch just replaced content and made this site .
-Special Thanks to https://github.com/ashutosh1919 for making this template site .
+This is My Personal Portfolio Website 
 
 # Tech Stack 
 - ReactJS
